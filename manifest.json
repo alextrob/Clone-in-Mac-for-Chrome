@@ -1,7 +1,8 @@
 {
   "name": "GitHub - Clone in Mac",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Adds a Clone in Mac button to repositories on GitHub.",
+  "update_url": "https://raw.github.com/alextrob/Clone-in-Mac-for-Chrome/master/updates.xml",
   "content_scripts": [
     {
       "matches": ["https://github.com/*"],
