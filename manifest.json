@@ -1,0 +1,14 @@
+{
+  "name": "GitHub - Clone in Mac",
+  "version": "1.0",
+  "description": "Adds a Clone in Mac button to repositories on GitHub.",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["github-mac-chrome.js"]
+    }
+  ],
+  "permissions": [
+    "https://github.com/"
+  ]
+}
